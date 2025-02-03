@@ -1,0 +1,25 @@
+# Ignorar arquivos do editor
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignorar arquivos de backup e temporários
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar dependências e pacotes (caso use algum gerenciador)
+node_modules/
+dist/
+build/
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos de ambiente e configuração sensível
+.env
