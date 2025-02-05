@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinica Bom Coração</title>
+    <title>Contato - Clínica Bom Coração</title>
     <link rel="stylesheet" href="../assets/base.css">
 </head>
 <body>
@@ -14,15 +14,15 @@
      
         <div class="pages">
             <ul>
-                <a href="/Desafio-Dio-Criando-meu-primeiro-site/Index.html"><img src="../assets/img/home.png" width="9%" alt="Ícone"> Página principal</a>
+                <a href="/Desafio-Dio-Criando-meu-primeiro-site/Index.html"><img src="../assets/img/home.png" width="9%" alt="Ícone casa"> Página principal</a>
                 <a href="Sobre.html"><img src="../assets/img/sobre.png" width="9%" alt="Ícone"> Sobre a clínica</a>
-                <a href="HRAtendimento.html"><img src="../assets/img/horario_atendimento.png" width="20" alt="Ícone"> Horário atendimento</a>
-                <a href="Contato.html"><img src="../assets/img/contato.png" width="9%" alt="Ícone"> Contato</a>
+                <a href="HRAtendimento.html"><img src="../assets/img/horario_atendimento.png" width="20" alt="Ícone horario"> Horário atendimento</a>
+                <a href="Contato.html"><img src="../assets/img/contato.png" width="9%" alt="Ícone contato"> Contato</a>
             </ul>
         </div>
         <div class="pages" style="position: bottom;">
             <ul>
-                <a href="pages/Ajuda.html" ><img src="../assets/img/ajuda.png" width="9%" alt="Ícone" > Precisa de Ajuda?</a>
+                <a href="Ajuda.html" ><img src="../assets/img/ajuda.png" width="9%" alt="Ícone" > Precisa de Ajuda?</a>
             </ul>
         </div>
     </div>
@@ -30,11 +30,84 @@
      <div class="wrapper">  
         <div class="main">
             <div class="header">
-                <img src="../assets/img/capa-tela-inicial.jpg" style="width: 100%;">
+                <img src="../assets/img/capa-tela-contato.jpg" style="width: 100%;">
             </div>
     
-            <div class="content">
-                <P>EM BREVE</P>
+            <div class="content-contato">
+                <div>
+                    <h1>Telefones</h1>
+                    <div class="icon-nome">
+                        <img src="../assets/img/contato.png" width="3%" alt="contato" >
+                        <p><strong>Telefone fixo: </strong> (19) 3805-5030</p>
+                    </div>
+                    <div class="icon-nome">
+                        <img src="../assets/img/Contato-samu.png" width="3%" alt="contato Samu Clinica" >
+                        <p><strong>Telefone Emergência: </strong> (19) 3897-1006</p>
+                    </div>
+                    <div class="icon-nome">
+                        <img src="../assets/img/whatsapp.png" width="3%" alt="Whatsapp" >
+                        <a href="https://www.whatsapp.com/+5519964151205"> <strong>Whatsapp: </strong>(19) 96415-1205</a>
+                    </div>
+                </div>
+
+                <div>
+                    <br>
+                    <hr style="border: 1px solid rgb(8, 85, 156);">
+                    <br>
+                </div>
+
+                <div>
+                    <h1>Endereço</h1>
+                    <div class="icon-nome">
+                        <img src="../assets/img/mapa.png" width="3%" alt="icone mapa" >
+                        <a href="https://maps.app.goo.gl/TnVoSDGBvbPrfH118"> <strong>Endereço Completo: </strong>Av. São Paulo, 154 - Jardim Armenia, Mogi das Cruzes - SP, 08780-57</a>
+                    </div>
+                    <div style="text-align: center;">
+                        <h2>Mapa</h2>
+                        <iframe class="mapa-iframe" 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d936550.1515890451!2d-47.3960136!3d-23.5181464!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd836bd8ff13f%3A0x9dd073f9e71df3d7!2zQ2zDrW5pY2EgU8OjbyBQYXVsbw!5e0!3m2!1spt-BR!2sbr!4v1738714137447!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+
+                <div>
+                    <br>
+                    <hr style="border: 1px solid rgb(8, 85, 156);">
+                    <br>
+                </div>
+
+                <h1 style="text-align: left; padding-bottom: 2% ;">Formulário de Contato</h1>
+
+                <div class="formulario">
+                    
+                    <form onsubmit="alert('Formulário Enviado');" method="get" action="#">
+                        
+                        <div class="campo">
+                            <label for="name">Nome <span class="required">*</span>:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                
+                        <div class="campo">
+                            <label for="email">E-mail <span class="required">*</span>:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                
+                        <div class="campo">
+                            <label for="assunto">Assunto <span class="required">*</span>:</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+                
+                        <div class="campo">
+                            <label for="mensagem">Mensagem <span class="required">*</span>:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        </div>
+                
+                        <div class="botoes">
+                            <button type="reset" class="btn-reset">Limpar</button>
+                            <button type="submit" class="btn-submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>                
             </div>
     
             <div class="footer">

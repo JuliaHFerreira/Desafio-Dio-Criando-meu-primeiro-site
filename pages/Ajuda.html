@@ -23,7 +23,7 @@
         </div>
         <div class="pages" style="position: bottom;">
             <ul>
-                <a href="pages/Ajuda.html" ><img src="../assets/img/ajuda.png" width="9%" alt="Ícone" > Precisa de Ajuda?</a>
+                <a href="Ajuda.html" ><img src="../assets/img/ajuda.png" width="9%" alt="Ícone" > Precisa de Ajuda?</a>
             </ul>
         </div>
     </div>
@@ -34,8 +34,49 @@
                 <img src="../assets/img/capa-tela-inicial.jpg" style="width: 100%;">
             </div>
     
-            <div class="content">
-                <P>EM BREVE</P>
+            <div class="content-contato">
+                <p><strong>Precisa de ajuda? Entre em contato com a gente atraves dessas opções:</strong></p>
+
+                <h1 style="padding-top: 2%;">Whatsapp</h1>
+                <div class="icon-nome" style="padding-left: 2%; text">
+                    <img src="../assets/img/whatsapp.png" width="3%" alt="Whatsapp" >
+                    <a href="https://www.whatsapp.com/+5519964151205"> (19) 96415-1205</a>
+                </div>
+
+                <h1 style="padding-bottom: 2%; padding-top: 2%;">Formulario</h1>
+                <div class="formulario">
+                    
+                    <form onsubmit="alert('Formulário Enviado');" method="get" action="#">
+                        
+                        <div class="campo">
+                            <label for="name">Nome <span class="required">*</span>:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                
+                        <div class="campo">
+                            <label for="email">E-mail <span class="required">*</span>:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                
+                        <div class="campo">
+                            <label for="assunto">Assunto <span class="required">*</span>:</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+                
+                        <div class="campo">
+                            <label for="mensagem">Mensagem <span class="required">*</span>:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        </div>
+                
+                        <div class="botoes">
+                            <button type="reset" class="btn-reset">Limpar</button>
+                            <button type="submit" class="btn-submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>  
+
+
+
             </div>
     
             <div class="footer">
